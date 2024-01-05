@@ -1,0 +1,8 @@
+Uygulama 3:
+
+* "movie-app/uygulama-2" klasörünü "uygulama-3" ismiyle kopyalayınız.
+* Film başlıklarını linke çeviriniz. (esaretin-bedeli.html, hababam-sinifi.html , baba.html)
+* Detay sayfalarında film için başlık, açıklama ve resim ekleyiniz.
+* Detay sayfalarına ana sayfa linki ekleyiniz
+
+https://www.beyazperde.com/filmler/tum-filmleri/kullanici-puani/

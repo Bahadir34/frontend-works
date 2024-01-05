@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    body{font-size: 15px; color: lightcoral;}
+    p{
+        color: red; /*p içerisinde yazılmış em etiketi içine de etki eder çünkü kalıtılabilir bir özelliktir.*/
+    }
+
+    p{
+        border: 1px solid black;
+    }
+
+    em{
+        border: inherit;/* em etiketine en yakın eleman p etiketi, ondan inherit et diyoruz.*/
+    }
+    em{color:initial;} /*tarayıcıda varsayılan rengi alsın, inherit etmesin color özelliğini.*/
+
+</style>
+
+<body>
+    <main>
+        <section>
+            <h1 class="text-yellow" id="page-title">Welcome To MovieApp</h1>
+            <p>Lorem ipsum dolor sit amet <em>consectetur</em> adipisicing elit. Blanditiis, atque!</p>
+        </section>
+
+        <section>
+            <h2 class="text-white" id="page-subtitle">How it works?</h2>
+        </section>
+    </main>
+</body>
+</html>

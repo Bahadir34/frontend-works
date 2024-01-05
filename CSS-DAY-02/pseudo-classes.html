@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes and ELements</title>
+
+    <style>
+        a{
+            border: 1px solid gray;
+            padding: 5px 8px;
+            display: inline-block;
+            text-decoration: none;
+            width: 60px;
+            text-align: center;
+        }
+
+        a:link{
+            color: red;
+        }
+
+        a:visited{
+            color: green;
+        }
+
+        a:hover {
+            color: #fff;
+            background-color: yellow;
+
+        }   
+
+        a:active{
+            color: #fff;
+            background-color: violet;
+        }
+
+        /* div:hover p {
+            display: block;
+        }
+
+        p{
+            display: none;
+        } */
+
+        p::first-line{
+            font-size: large;
+            font-weight: bold;
+        }
+
+        p.about::first-line{
+            color: yellow;
+            background-color: lightblue;
+        }
+
+        p::first-letter{
+            font-size: 48px;
+        }
+
+        ::selection {
+            background-color: blueviolet;
+        }
+
+        p::before{
+            content: '\23F8';
+        }
+
+    </style>
+
+</head>
+<body>
+    
+<!-- Pseudo Classes -->
+<a href="http://facebook.com" target="_blank">Home</a>
+<a href="http://google.com">Products</a>
+<a href="http://google.com">About</a>
+
+<div>
+    Click here!
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, nam quidem! Nesciunt, est reprehenderit fuga numquam soluta enim voluptas repellat neque, voluptate ut fugiat explicabo beatae nobis asperiores blanditiis in.</p>
+</div>
+
+<!-- Pseudo Elements-->
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, aperiam doloremque doloribus, quia in atque tenetur maiores nobis ipsum accusamus consectetur dolorum alias blanditiis quibusdam quo aut quis fugiat magnam?</p>
+
+<p class="about">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam reprehenderit deserunt placeat suscipit esse incidunt magni, molestiae ullam deleniti magnam voluptates optio fugit tempora totam at quae iusto earum! Impedit!</p>
+
+</body>
+</html>
